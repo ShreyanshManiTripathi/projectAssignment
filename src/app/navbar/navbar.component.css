@@ -1,0 +1,17 @@
+ul>li{
+    list-style-type: none;
+}
+
+.container{
+    display:flex;
+
+}
+
+li{
+    margin-right: 20px;
+}
+
+#items{
+    margin-left: 500px;
+    float: right;
+}

@@ -1,0 +1,17 @@
+
+<div class="form-popup" id="myForm">
+    <form  class="form-container">
+      <h1>Customer Login</h1>
+  <div>Registered Customers</div>
+  <div>If you have an existing account  sign in with your email address.</div>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Email is 123@gmail.com " id="user" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder=" Password is hiuser" id="pwd" name="psw" required>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> Remember me Whats this?</label><br>
+      <button  class="btn" (click)="logIn()">Login</button>
+      <button type="button" class="btn cancel" (click)="closeForm()" router->Close</button>
+
+    </form>
