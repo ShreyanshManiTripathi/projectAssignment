@@ -6,26 +6,7 @@
   }
 
 
-  @media screen and (max-width: 500px) {
-    .form-container{
-        position:absolute;
-        top:-200px;
-        left:-128px;
-          }
-  }
-
-  @media screen and (max-width: 1150px) {
-    .form-container{
-        position:absolute;
-        top:-200px;
-        left:-128px;
-          }
-  }
-
-
-  body{
-      background: #6a62d2;
-  }
+  
   
   .login-page {
       height: 100vh;
@@ -45,13 +26,7 @@
     padding:40px;
   }
   
-  .form img {
-      position: absolute;
-      height: 20px;
-      top: 230px;
-      right: 60px;
-      cursor: pointer;
-  }
+  
   
   .form input {
       outline: 0;
@@ -64,15 +39,9 @@
       font-size: 14px;
   }
   
-  .form input:focus {
-      box-shadow: 0 0 5px 0 rgba(106, 98, 210);
-  }
   
-  span {
-      color: red;
-      margin: 10px 0;
-      font-size: 14px;
-  }
+  
+  
   
   .form button {
       outline: 0;
@@ -84,9 +53,9 @@
       padding: 15px;
       color: #FFFFFF;
       font-size: 15px;
-      -webkit-transition: all 0.3 ease;
-      transition: all 0.4s ease-in-out;
-      cursor: pointer;
+      /* -webkit-transition: all 0.3 ease;
+      transition: all 0.4s ease-in-out; */
+     
   }
   
   .form button:hover,
@@ -96,43 +65,15 @@
       color: #fff;
   
   }
-  
-  .message{
-      margin: 15px 0;
-      text-align: center;
-  
-  }
-  .form .message a {
-      font-size: 14px;
-      color: #6a62d2;
-      text-decoration: none;
-  }
 
-  body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-/* Button used to open the contact form - fixed at the bottom of the page */
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
-}
-
-/* The popup form - hidden by default */
+/* The popup form */
 .form-popup {
-  /* display: none; */
+ 
   position: fixed;
   bottom: 50px;
   left: 400px;
   border: 3px solid #f1f1f1;
-  z-index: 9;
+  z-index: 1;
 }
 
 /* Add styles to the form container */
@@ -151,13 +92,13 @@
   background: #f1f1f1;
 }
 
-/* When the inputs get focus, do something */
+/* When the inputs get focus,change background color */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
-  outline: none;
+  
 }
 
-/* Set a style for the submit/login button */
+/* login button */
 .form-container .btn {
   background-color: black;
   color: white;
@@ -169,29 +110,19 @@
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: red;
-}
 
-/* Add some hover effects to buttons */
+/*  hover effects on buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
 
-@media screen and (max-width: 700px) {
-    .form-container{
-        position:absolute;
-        top:10px;
-        left:-249px;
-          }
-  }
 
 
- 
 
-  .form-container{
-position:relative;
-top:50px;
+
+
+  /* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
   }

@@ -24,7 +24,7 @@
   }
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 650px) {
     .topnav a, .topnav input[type=text] {
       float: none;
       display: block;
@@ -48,8 +48,8 @@
 */
 #fuji{
 position:relative;
-top:21px;      
-left:-209px;
+top:-20px;      
+left:46px;
 }
 
 .header3{
@@ -57,9 +57,6 @@ left:-209px;
     justify-content: space-between;
     list-style-type: none;
 } 
-
-
-
 
 #create{
     margin-right:200px;
@@ -71,10 +68,44 @@ margin-right: -80px;
 }
 
 
+@media screen and (max-width: 800px) {
 
-@media screen and (max-width: 480px) {
+    #create{
+       /* position:relative; */
+       /* left:20px; */
+       margin-left:59px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+#create{
+   /* position:relative; */
+   /* left:20px; */
+   margin-left:59px;
+}
+
+#signin{
+margin-right: -80px;
+}
+
+}
+
+@media screen and (max-width: 670px) {
     .header3{
       
       display:block;
+    }
+}
+
+body{
+     
+    max-width: 100vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .header3{
+      
+     margin-right: 20px;;
     }
 }

@@ -2,21 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
-  
-
-    @media screen and (max-width: 500px) {
-        .form-container{
-            position:absolute !important;
-            top:-200px !important;
-            left:-128px;
-              }
-      }
 
 
   }
+
+ 
   body{
-      background: #6a62d2;
+     
+      max-width: 100vh;
   }
   
   .login-page {
@@ -132,6 +125,7 @@
   max-width: 300px;
   padding: 10px;
   background-color: white;
+
 }
 
 /* Full-width input fields */
@@ -170,3 +164,6 @@
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+
+ 
