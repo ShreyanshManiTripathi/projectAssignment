@@ -61,7 +61,7 @@ export class SigninComponent {
 
          if (uname === '123@gmail.com' && pword === 'hiuser') {
             alert('log in successful')
-            this.router.navigate(['homepage']);
+            this.router.navigate(['loggedin']);
             // this.document.location.href = 'https://www.google.com'
             close.style.display = "none";
         }

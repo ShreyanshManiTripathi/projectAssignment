@@ -1,5 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
 
-body {font-family: Arial, Helvetica, sans-serif;}
+
+  @media screen and (max-width: 500px) {
+    .form-container{
+        position:absolute;
+        top:-200px;
+        left:-128px;
+          }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .form-container{
+        position:absolute;
+        top:-200px;
+        left:-128px;
+          }
+  }
+
+
+  body{
+      background: #6a62d2;
+  }
+  
+  .login-page {
+      height: 100vh;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .form {
+    position: relative;
+    
+    border-radius: 5px;
+    width: 360px;
+    height: 320px;
+    background-color: white;
+    padding:40px;
+  }
+  
+  .form img {
+      position: absolute;
+      height: 20px;
+      top: 230px;
+      right: 60px;
+      cursor: pointer;
+  }
+  
+  .form input {
+      outline: 0;
+      background: #f2f2f2;
+      border-radius: 4px;
+      width: 100%;
+      border: 0;
+      margin: 15px 0;
+      padding: 15px;
+      font-size: 14px;
+  }
+  
+  .form input:focus {
+      box-shadow: 0 0 5px 0 rgba(106, 98, 210);
+  }
+  
+  span {
+      color: red;
+      margin: 10px 0;
+      font-size: 14px;
+  }
+  
+  .form button {
+      outline: 0;
+      background: black;
+      width: 50%;
+      border: 0;
+      margin-top: 10px;
+      border-radius: 3px;
+      padding: 15px;
+      color: #FFFFFF;
+      font-size: 15px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+  }
+  
+  .form button:hover,
+  .form button:active,
+  .form button:focus {
+      background: black;
+      color: #fff;
+  
+  }
+  
+  .message{
+      margin: 15px 0;
+      text-align: center;
+  
+  }
+  .form .message a {
+      font-size: 14px;
+      color: #6a62d2;
+      text-decoration: none;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
@@ -18,10 +127,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The popup form - hidden by default */
 .form-popup {
-  display: none;
+  /* display: none; */
   position: fixed;
-  bottom: 0;
-  right: 15px;
+  bottom: 50px;
+  left: 400px;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
@@ -50,7 +159,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -69,3 +178,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+
+@media screen and (max-width: 700px) {
+    .form-container{
+        position:absolute;
+        top:10px;
+        left:-249px;
+          }
+  }
+
+
+ 
+
+  .form-container{
+position:relative;
+top:50px;
+  }

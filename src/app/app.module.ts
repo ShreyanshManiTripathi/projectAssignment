@@ -11,6 +11,8 @@ import { ServService } from './serv.service';
 import { BannerComponent } from './banner/banner.component';
 import { CardsComponent } from './cards/cards.component';
 import { FooterComponent } from './footer/footer.component';
+import { AfterloginComponent } from './afterlogin/afterlogin.component';
+import { Banner2Component } from './banner2/banner2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
     SigninComponent,
     BannerComponent,
     CardsComponent,
-    FooterComponent
+    FooterComponent,
+    AfterloginComponent,
+    Banner2Component
   ],
   imports: [
     BrowserModule,

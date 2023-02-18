@@ -4,6 +4,16 @@
     box-sizing: border-box;
   
   
+
+    @media screen and (max-width: 500px) {
+        .form-container{
+            position:absolute !important;
+            top:-200px !important;
+            left:-128px;
+              }
+      }
+
+
   }
   body{
       background: #6a62d2;
@@ -91,7 +101,7 @@
   }
 
   body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+/* * {box-sizing: border-box;} */
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {

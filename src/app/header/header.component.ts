@@ -13,4 +13,8 @@ logIn(){
   this.router.navigate(['/signin']);
 }
 
+signUp(){
+  this.router.navigate(['/signup']);
+}
+
 }
