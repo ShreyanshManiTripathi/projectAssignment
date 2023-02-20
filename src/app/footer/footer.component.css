@@ -29,7 +29,7 @@ section {
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
 	display: inline-block;
-	vertical-align: top;
+	/* vertical-align: top; */
 }
 
 /* Footer left */

@@ -5,14 +5,12 @@
     padding: 0;
 }
 
-/* provides background color to body */
+
 body {
     background-color: rgb(255, 235, 235);
 }
 
-/* ----- container stylings: 
--> centers the whole content of the page
--> defines width and height for container ----- */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -66,7 +64,7 @@ body {
     width: 400%;
     height: 100%;
     position: relative;
-    /* you can change the animation settings from below */
+   
     animation: slideshow 20s infinite;
  }
 /* define width and height for images*/
